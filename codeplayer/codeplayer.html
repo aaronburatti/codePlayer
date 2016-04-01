@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+  <title>JS Diddle</title>
+  <meta charset="utf-8">
+  <meta name="viewport" width="device-width, initial-scale 1">
+  <link rel="stylesheet" type="text/css" href="codestyle.css">
+  <link href='https://fonts.googleapis.com/css?family=Arimo:400,700' rel='stylesheet' type='text/css'>
+  </head>
+<body>
+  <div id="wrapper">
+    <div id="menubar">
+      <div id="logo">
+        JS Diddle
+      </div>
+      <div id="buttons">
+      <button id="run-button">Run</button>
+    </div>
+    <ul id="toggle">
+      <li class="toggles selected">HTML</li>
+      <li class="toggles">CSS</li>
+      <li class="toggles">JS</li>
+      <li class="toggles selected">RESULT</li>
+    </ul>
+  </div>
+<div class="clear"></div>
+
+<div class="codeContainer" id="HTMLContainer">
+<div class="codeLabel">HTML</div>
+
+<textarea id="htmlCode">Sample Code</textarea>
+
+</div>
+
+<div class="codeContainer" id="CSSContainer">
+  <div class="codeLabel">CSS</div>
+
+  <textarea id="cssCode">Sample Code</textarea>
+
+
+</div>
+
+<div class="codeContainer" id="JSContainer">
+  <div class="codeLabel">JavaScript</div>
+
+  <textarea id="jsCode">Sample Code</textarea>
+
+
+</div>
+
+<div class="codeContainer" id="RESULTContainer">
+  <div class="codeLabel">Results</div>
+
+  <iframe></iframe>
+
+
+</div>
+
+
+</div>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script type="text/javascript" src="codescript.js"></script>
+
+</body>
+</html>
