@@ -30,4 +30,11 @@ $("#run-button").click(function(){
 
 });
 
+$("#run").click(function() {
+$('#resultFrame').contents().find('html').html("<style>"+$
+('#css').val()+"</style>"+$("#html").val());
+document.getElementById('resultFrame').contentWindow.eval( $
+('#js').val() );
+});
+
 $document.ready();
